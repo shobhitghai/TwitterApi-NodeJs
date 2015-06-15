@@ -1,13 +1,13 @@
 var application_root = __dirname,
     express = require("express"),
     Twitter = require('twitter');
-    config = require('./config/config.js'); //Comment out and put your keps below
+    config = require('./config/config.js');
     var port = process.env.PORT || 3000;
 
 var app = express();
 
 //To maintain keys in different file
-var configkeys = new config(); //Comment out and put your keps below
+var configkeys = new config(); 
 
 //Comment out and put your keps below
 var client = new Twitter({
