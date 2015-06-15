@@ -22,6 +22,8 @@ var params = {
     count: '5'
 };
 
+app.use('/', express.static(application_root));
+
 //Express Restful API
 app.get('/getTweets', function(req, res) {
     res.header('Access-Control-Allow-Origin', '*');
