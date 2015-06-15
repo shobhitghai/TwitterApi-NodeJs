@@ -2,6 +2,7 @@ var application_root = __dirname,
     express = require("express"),
     Twitter = require('twitter');
     config = require('./config/config.js'); //Comment out and put your keps below
+    var port = process.env.PORT || 3000;
 
 var app = express();
 
@@ -38,4 +39,4 @@ app.get('/getTweets', function(req, res) {
 })
 
 
-app.listen(8081);
+app.listen(port);
