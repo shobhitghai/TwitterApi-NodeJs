@@ -1,6 +1,6 @@
 $(function() {
     $.ajax({
-        url: 'http://localhost:8081/getTweets',
+        url: 'https://twitter-nodejs-poc.herokuapp.com/getTweets',
         success: function(tData) {
             $('.tData').html(tData);
         },
