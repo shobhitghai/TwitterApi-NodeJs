@@ -1,6 +1,6 @@
 $(function() {
     $.ajax({
-        url: 'http://localhost:8081/getTweets',
+        url: '/getTweets',
         success: function(tData) {
             $('.tData').html(tData);
         },
