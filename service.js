@@ -18,7 +18,7 @@ var client = new Twitter({
 });
 
 var params = {
-    screen_name: 'nodejs',
+    screen_name: 'heroku',
     count: '5'
 };
 
