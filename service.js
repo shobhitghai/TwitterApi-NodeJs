@@ -18,8 +18,8 @@ var client = new Twitter({
 });
 
 var params = {
-    screen_name: 'heroku',
-    count: '5'
+    screen_name: 'nodejs',
+    count: '20'
 };
 
 app.use('/', express.static(application_root));

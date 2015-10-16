@@ -4,13 +4,29 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <script type="text/javascript" src="lib/modernizr.custom.79639.js"></script>
     <title>Twitter Nodejs</title>
 </head>
 
 <body>
-	<h1>Json data from api</h1>
-    <div class="tData"></div>
+    <div class="container mod-tweet-container">
+        <!-- <div class="tData mod-tweet-container"></div> -->
+        <section class="main">
+            <p class="info">Twitter client (plugin) developed using NodeJs, TwitterApi and jQuery</p>
+            <div class="windy-demo">
+                <ul id="wi-el" class="wi-container">
+                </ul>
+                <nav>
+                    <span id="nav-prev">prev</span>
+                    <span id="nav-next">next</span>
+                </nav>
+            </div>
+        </section>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="lib/jquery.windy.js"></script>
+    <script src="base.js"></script>
     <script src="app.js"></script>
 </body>
 
